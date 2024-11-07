@@ -1,0 +1,99 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7faff; 
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  color: #ff6f61; 
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+table {
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ff6f61; 
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+td[contenteditable="true"] {
+  background-color: #fff5f5; 
+  outline: none;
+  cursor: text;
+}
+
+tr:hover {
+  background-color: #fff0e6; 
+}
+
+button {
+  padding: 8px 14px;
+  margin: 4px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #004c99; 
+  box-shadow: 0 4px 12px rgba(0, 76, 153, 0.2);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.new-item-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.new-item-form input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  transition: border-color 0.3s ease;
+}
+
+.new-item-form input:focus {
+  border-color: #ff6f61; 
+  outline: none;
+}
+
+.new-item-form button {
+  flex-shrink: 0;
+  padding: 10px 20px;
+  font-size: 1em;
+}
