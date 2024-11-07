@@ -2,7 +2,8 @@
   "name": "lowdb",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "appsample.js",
+
   "scripts": {
     "start": "node appsample.js",
     "startlow": "node applow.js",
