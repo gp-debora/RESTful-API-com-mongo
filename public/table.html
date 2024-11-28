@@ -6,19 +6,16 @@
   <title>Editable List</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
 </head>
 <body>
-
   <h2>Students</h2>
-
   <table id="itemsTable">
     <thead>
       <tr>
         <th>ID</th>
-        <th>Property 1</th>
-        <th>Property 2</th>
-        <th>Property 3</th>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Curso</th>
         <th>Actions</th>
       </tr>
     </thead>
@@ -26,14 +23,12 @@
       <!-- Items will be inserted here -->
     </tbody>
   </table>
-
   <div class="new-item-form">
-    <input type="text" id="newProp1" placeholder="Property 1" />
-    <input type="text" id="newProp2" placeholder="Property 2" />
-    <input type="text" id="newProp3" placeholder="Property 3" />
+    <input type="text" id="newProp1" placeholder="Nome" />
+    <input type="text" id="newProp2" placeholder="Idade" />
+    <input type="text" id="newProp3" placeholder="Curso" />
     <button onclick="createNewItem()">Create</button>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
