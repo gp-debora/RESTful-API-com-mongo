@@ -1,4 +1,4 @@
-// Função para carregar e renderizar registros na tabela
+// Função para carregar e renderizar registos na tabela
 function fetchAndRenderItems() {
   fetch('/students')
     .then(response => response.json())
