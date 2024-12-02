@@ -14,7 +14,7 @@ Esta é uma API RESTful desenvolvida em Node.js com Express e MongoDB para gerir
 
 ## Funcionalidades
 - **GET /students**: Retorna a lista de todos os estudantes.
-- **GET /students/:id**: Retorna um estudante específico pelo `id`. FALTA ISTO
+- **GET /students/:id**: Retorna um estudante específico pelo `id`.
 - **POST /students**: Cria um novo estudante.
 - **PUT /students/:id**: Atualiza os dados de um estudante específico pelo `id`.
 - **DELETE /students/:id**: Remove um estudante específico pelo `id`.
